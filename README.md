@@ -61,8 +61,9 @@ The contact form is powered by Formspree. To set it up:
 - Create a new form and get your unique form ID.
 
 - Replace {your-form-id} in the action attribute of the <form> tag in index.html with your Formspree form ID:
-
-- #### <form class="contact-form" action="https://formspree.io/f/{your-form-id}" method="POST">
+```bash
+<form class="contact-form" action="https://formspree.io/f/{your-form-id}" method="POST">
+```
 
 
 📬 Contact Me
