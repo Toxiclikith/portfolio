@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likith C N - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="assets/likith-profile-pic.jpg" alt="Likith C N" class="profile-pic">
+            <h1>Likith C N</h1>
+            <p>Node.js Backend Developer & DevOps Enthusiast</p>
+            <div class="social-links">
+                <a href="https://github.com/Toxiclikith" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/likith-c-n" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/toxiclikith" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/toxiclikith" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="t.me/Toxiclikith" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Node.js</h3>
+                <p>2.5+ years experience</p>
+            </div>
+            <div class="skill-card">
+                <h3>Docker & Kubernetes</h3>
+                <p>1+ year experience</p>
+            </div>
+            <div class="skill-card">
+                <h3>MongoDB</h3>
+                <p>Database Management</p>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Core Language Expertise</p>
+            </div>
+            <div class="skill-card">
+                <h3>Polymer.js</h3>
+                <p>Intermediate Level</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Random Everything</h3>
+                    <p>The Ultimate Random Data Generator. Generate random data of various types, from numbers to complex data structures.</p>
+                    <a href="https://www.npmjs.com/package/random-everything" target="_blank">View on npm</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Quick-JSONify</h3>
+                    <p>A JSON utility package for Node.js with features like JSON formatting, XML to JSON conversion, key transformation, and more.</p>
+                    <a href="https://www.npmjs.com/package/quick-jsonify" target="_blank">View on npm</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Blinknote</h3>
+                    <p>A secret message-sharing app. Users can send messages without size restrictions and generate shareable links or codes.</p>
+                    <a href="https://blinknote.pages.dev/" target="_blank">Visit Blinknote</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Weather App</h3>
+                    <p>A simple weather application to check real-time weather data.</p>
+                    <a href="https://github.com/Toxiclikith" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Streak Updater</h3>
+                    <p>An application to track and update streaks for daily tasks.</p>
+                    <a href="https://github.com/Toxiclikith" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <form class="contact-form" action="https://formspree.io/f/xdkadyel" method="POST">
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
