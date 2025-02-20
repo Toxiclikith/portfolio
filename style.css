@@ -17,7 +17,6 @@ body {
     color: var(--dark-color);
 }
 
-/* Navigation */
 .navbar {
     position: fixed;
     top: 0;
@@ -49,7 +48,6 @@ body {
     color: var(--primary-color);
 }
 
-/* Hero Section */
 .hero {
     height: 100vh;
     display: flex;
@@ -82,7 +80,6 @@ body {
     color: var(--dark-color);
 }
 
-/* Skills Section */
 .skills {
     padding: 5rem 2rem;
     background: var(--light-color);
@@ -115,7 +112,6 @@ body {
     transform: translateY(-5px);
 }
 
-/* Projects Section */
 .projects {
     padding: 5rem 2rem;
 }
@@ -153,7 +149,6 @@ body {
     text-decoration: underline;
 }
 
-/* Contact Section */
 .contact {
     padding: 5rem 2rem;
     background: var(--light-color);
@@ -191,7 +186,6 @@ button:hover {
     background: var(--secondary-color);
 }
 
-/* Profile Picture */
 .profile-pic {
     width: 150px;
     height: 150px;
@@ -201,7 +195,6 @@ button:hover {
     object-fit: cover;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .hero-content h1 {
         font-size: 2.5rem;
