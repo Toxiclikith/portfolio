@@ -80,7 +80,7 @@ Feel free to reach out to me via:
 
 - Instagram: @toxiclikith
 
-- Telegram: Toxiclikith
+- Telegram: @Toxiclikith
 
 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
