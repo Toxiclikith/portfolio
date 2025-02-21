@@ -104,12 +104,19 @@ body {
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    position: relative;
 }
 
 .skill-card:hover {
     transform: translateY(-5px);
+}
+
+.skill-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
 }
 
 .projects {
@@ -194,6 +201,22 @@ button:hover {
     margin-bottom: 1.5rem;
     object-fit: cover;
 }
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #aaa;
+  }
+  
+  footer a {
+    color: #2ecc71;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
 
 @media (max-width: 768px) {
     .hero-content h1 {
